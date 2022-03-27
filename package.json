@@ -1,0 +1,24 @@
+
+{
+  "name": "permio-cdp",
+  "version": "0.0.1",
+  "description": "PERMIO Capability, Domain and Processor",
+  "main": "index.js",
+  "author": "Maaran-MCS",
+  "license": "MIT",
+  "type":"module",
+  "private": null,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
